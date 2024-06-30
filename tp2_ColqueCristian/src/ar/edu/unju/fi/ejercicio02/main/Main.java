@@ -2,7 +2,6 @@ package ar.edu.unju.fi.ejercicio02.main;
 
 import java.util.ArrayList;
 import java.util.Scanner;
-
 import ar.edu.unju.fi.ejercicio02.constantes.Mes;
 import ar.edu.unju.fi.ejercicio02.model.Efemeride;
 
