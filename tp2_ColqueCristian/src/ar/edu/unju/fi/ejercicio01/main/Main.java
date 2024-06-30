@@ -131,11 +131,9 @@ public class Main {
         System.out.println("Lista de productos:");
         for (Producto producto : productos) {
             System.out.println(producto);
+
         }
     }
 }
-
-
-
 
 
