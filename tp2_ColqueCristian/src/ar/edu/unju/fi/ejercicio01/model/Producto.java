@@ -26,6 +26,15 @@ public class Producto {
         this.origenFabricacion = origenFabricacion;
         this.categoria = categoria;
     }
+    
+    public Producto(String codigo, String descripcion, double precioUnitario,
+            Categoria categoria, boolean estado) {
+        this.codigo = codigo;
+        this.descripcion = descripcion;
+        this.precioUnitario = precioUnitario;
+        this.categoria = categoria;
+        this.estado = estado;
+    }
 
     public enum OrigenFabricacion {
         ARGENTINA, CHINA, BRASIL, URUGUAY
